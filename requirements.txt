@@ -1,0 +1,17 @@
+# Core Discord Library
+discord.py>=2.3.2
+
+# Networking & HTTP
+aiohttp>=3.9.3
+
+# Image Processing & Computer Vision (Headless for server & Docker compatibility)
+opencv-python-headless>=4.8.0
+Pillow>=10.0.0
+numpy>=1.24.0
+
+# Optical Character Recognition (OCR) & Language Detection
+pytesseract>=0.3.10
+langdetect>=1.0.9
+
+# Environment Configuration
+python-dotenv>=1.0.0

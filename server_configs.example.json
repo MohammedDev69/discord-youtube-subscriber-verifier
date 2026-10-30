@@ -1,0 +1,13 @@
+{
+    "123456789012345678": {
+        "youtube_channel_name": "Your Channel Name",
+        "verified_role_name": "Subscriber",
+        "cooldown_hours": 24,
+        "verification_threshold": 0.7,
+        "alternative_channel_names": [],
+        "admin_users": [],
+        "admin_roles": [],
+        "log_channel_id": null
+    }
+}
+

@@ -1,0 +1,39 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables & secrets
+.env
+.env.local
+
+# Bot runtime logs & databases
+bot.log
+*.log
+server_configs.json
+user_cooldowns.json
+*.tmp
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# IDE & Editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Backup and temporary text files
+*.bak
+2.txt
+mainsuccess.txt
+main2.py
+

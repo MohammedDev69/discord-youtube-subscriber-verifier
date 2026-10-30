@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  youtube-verifier:
+    build: .
+    container_name: youtube-verifier-bot
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      - ./server_configs.json:/app/server_configs.json
+      - ./user_cooldowns.json:/app/user_cooldowns.json
+      - ./bot.log:/app/bot.log
+
